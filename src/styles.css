@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+body {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    font-family: 'Roboto', sans-serif;
+    color: #e0e0e0;
+  }
+  
+  .navbar {
+    background: #141414;
+    border-bottom: 2px solid #80AFE8;
+  }
+  
+  .main-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #80AFE8;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 25px 10px;
+    padding: 0px 10px;
+    
+  }
+  
+  a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits color from parent element */
+  }
+  
+  .main-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(128,175,232, 0.5);
+  }
+  
+  .subtopic-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #80AFE8cc;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .subtopic-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(128,175,232, 0.5);
+  }
+  
+  .card-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #80AFE8;
+    border: 2px solid #80AFE8;
+    z-index: 1000;
+  }
+  
