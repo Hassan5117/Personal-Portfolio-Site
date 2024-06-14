@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { CoursesComponent } from './courses/courses.component';
-import { ExtraCurricularsComponent } from './extra-curriculars/extra-curriculars.component';
-import { LeadershipComponent } from './leadership/leadership.component';
-import { PersonalDevelopmentComponent } from './personal-development/personal-development.component';
-import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { CoursesComponent } from './pages/courses/courses.component';
+import { ExtraCurricularsComponent } from './pages/extra-curriculars/extra-curriculars.component';
+import { LeadershipComponent } from './pages/leadership/leadership.component';
+import { PersonalDevelopmentComponent } from './pages/personal-development/personal-development.component';
+import { WorkExperienceComponent } from './pages/work-experience/work-experience.component';
 
 export const routes: Routes = [
     {path: '', component: AboutMeComponent},

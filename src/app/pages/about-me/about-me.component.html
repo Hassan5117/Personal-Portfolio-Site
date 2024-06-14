@@ -1,0 +1,45 @@
+  <div class="body center">
+    <h1>About Me</h1>
+    <p>Welcome to my personal website. Here you can find
+      extra information about me that may not have fit in
+    </p>
+    <p>a resume or cover letter. The sections contained in
+      this site belong to the following categories:
+    </p>
+  </div>
+  
+  
+  <section id="about-me">
+    <a [routerLink]="[ 'courses' ]">
+        <div class="main-card">
+            <h2>Courses + Skills Learned</h2>
+            <p>Brief overview of courses and skills...</p>
+        </div>
+    </a>
+    <a [routerLink]="[ 'extra-curriculars' ]">
+      <div class="main-card">
+          <h2>Extra-Curriculars</h2>
+          <p>Brief overview of extra-curriculars...</p>
+      </div>
+  </a>
+  <a [routerLink]="[ 'leadership' ]">
+    <div class="main-card">
+        <h2>Leadership</h2>
+        <p>Brief overview of leadership...</p>
+    </div>
+</a>
+<a [routerLink]="[ 'personal-development' ]">
+  <div class="main-card">
+      <h2>Personal Development</h2>
+      <p>Brief overview of personal development...</p>
+  </div>
+</a>
+<a [routerLink]="[ 'work-experience' ]">
+  <div class="main-card">
+      <h2>Work Experience</h2>
+      <p>Brief overview of work experience...</p>
+  </div>
+</a>
+  </section>
+  <router-outlet></router-outlet>
+  

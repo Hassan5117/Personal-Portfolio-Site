@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterModule, Routes } from '@angular/router';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutMeComponent } from './pages/about-me/about-me.component';
 
 @Component({
   selector: 'app-root',
